@@ -1,6 +1,6 @@
 /* Modifier le code ci dessous */
 
-document.getElementById("cliquezmoi").("", function(){
+let bouton = document.getElementById("cliquezmoi").addEventListener('click', function(event){
     alert('Click')
 });
 
